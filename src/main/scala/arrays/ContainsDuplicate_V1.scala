@@ -1,7 +1,7 @@
 package info.sandroalmeida
 package arrays
 
-class ContainsDuplicate {
+class ContainsDuplicate_V1 {
   def containsDuplicate(nums: Array[Int]): Boolean =
     val set = collection.mutable.Set[Int]()
     var result = false

@@ -1,6 +1,6 @@
 package info.sandroalmeida
 
-import arrays.ContainsDuplicate
+import arrays.ContainsDuplicate_V1
 
 object EntryPoint {
 
@@ -8,7 +8,7 @@ object EntryPoint {
     println("Main class entry point")
 
     val nums = Array(1,2,3)
-    val c = ContainsDuplicate()
+    val c = ContainsDuplicate_V1()
     println(c.containsDuplicate(nums))
   }
 
