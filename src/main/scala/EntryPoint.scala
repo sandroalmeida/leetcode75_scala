@@ -9,10 +9,8 @@ object EntryPoint {
 
     val array = Array(1,1,2,3)
     val list = List(1,1,2,3)
-    val v1 = ContainsDuplicate_V1()
-    val v2 = ContainsDuplicate_V2()
-    println(v1.containsDuplicate(array))
-    println(v2.containsDuplicate(list, Set()))
+    println(containsDuplicate(array))
+    println(containsDuplicate(list, Set()))
   }
 
 }
